@@ -27,7 +27,6 @@ WORKDIR /var/www
 # Copy project files
 COPY --from=node-builder /app /var/www
 
-COPY .env .env
 
 # Install Laravel dependencies
 RUN composer install --no-dev --optimize-autoloader
