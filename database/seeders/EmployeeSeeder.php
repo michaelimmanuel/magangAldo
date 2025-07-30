@@ -28,5 +28,13 @@ class EmployeeSeeder extends Seeder
                 'department_id' => $departments->random()->id,
             ]);
         }
+
+        // Create an admin user
+        User::create([
+            'name' => 'Admin',
+            'email' => 'admin@example.com',
+            'password' => Hash::make('password'), // default password
+            'role' => 'admin',
+        ]);
     }
 }

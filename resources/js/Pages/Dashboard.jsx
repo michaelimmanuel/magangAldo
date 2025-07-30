@@ -1,9 +1,9 @@
 import {
   Card, CardContent, CardHeader, CardTitle
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow
-} from "@/components/ui/table";
+} from "@/Components/ui/table";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";

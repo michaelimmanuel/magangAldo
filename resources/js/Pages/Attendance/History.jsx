@@ -1,10 +1,10 @@
 import { router, Head } from '@inertiajs/react';
 import { useState } from 'react';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from '@/components/ui/select';
-import { Card, CardContent } from '@/components/ui/card';
-import { Table, TableBody, TableHead, TableHeader, TableRow, TableCell } from '@/components/ui/table';
+import { Input } from '@/Components/ui/input';
+import { Button } from '@/Components/ui/button';
+import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from '@/Components/ui/select';
+import { Card, CardContent } from '@/Components/ui/card';
+import { Table, TableBody, TableHead, TableHeader, TableRow, TableCell } from '@/Components/ui/table';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import AttendancePDF from './AttendancePDF';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';

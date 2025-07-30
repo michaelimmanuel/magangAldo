@@ -1,11 +1,11 @@
 import {
   Card, CardContent, CardHeader, CardTitle
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow
-} from "@/components/ui/table";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+} from "@/Components/ui/table";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
 import { useState } from "react";
 import CreateUserModal from "./CreateUserModal";
 import { usePage, router } from "@inertiajs/react";
