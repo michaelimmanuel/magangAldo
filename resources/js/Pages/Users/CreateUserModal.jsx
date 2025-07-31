@@ -12,7 +12,7 @@ export default function CreateUserModal({ isOpen, setIsOpen, user = null }) {
     name: "",
     email: "",
     password: "",
-    role: "",
+    role: user?.role || "employee",
     department_id: "",
     position: "",
   });
